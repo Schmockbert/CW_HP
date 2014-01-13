@@ -306,7 +306,7 @@ html {
 }
 
 body {
-  font-family: Insignia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Bembo, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.428571429;
   color: #333333;
@@ -552,27 +552,27 @@ h6 .small {
 
 h1,
 .h1 {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 34px;
 }
 
 h3,
 .h3 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 h4,
 .h4 {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 h5,
 .h5 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 h6,
@@ -2641,7 +2641,11 @@ input[type="button"].btn-block {
   font-family: 'Insignia';
   src: url('../fonts/InsigniaLTStd.otf') format("opentype");
   src: url('../fonts/InsigniaLTStd.ttf') format("truetype");
-
+}
+@font-face {
+	  font-family: 'Bembo';
+  src: url('../fonts/BemboStd.otf') format("opentype");
+  src: url('../fonts/BemboStd.ttf') format("truetype");
 }
 
 .glyphicon {
